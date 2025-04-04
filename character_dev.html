@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="">
+        <meta name="description" content="">
+
+        <link rel="stylesheet" href="./character_dev.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+        <title>Frontend Mentor | Character counter</title>
+    </head>
+
+    <body>
+        <main class="main">
+            <div>
+                <header class="title_and_theme_icon_section">
+                    <img src="./assets/images/logo-dark-theme.svg" class="dark_theme_logo" alt="Site Logo">
+
+                    <button class="sun_icon_div">
+                        <img src="./assets/images/icon-sun.svg" class="sun_icon" alt="Toggle Light Mode">
+                    </button>
+                </header>
+
+                <section class="analyze_text_section">
+                    <p class="analyze_text">Analyze your text</p>
+                    <p class="analyze_text_real_time">in real-time.</p>
+                </section>
+
+
+                <section class="input_field_section">
+                    <textarea class="text_area" rows="9" placeholder="Start typing here...(or paste your text)"></textarea>
+                    
+                    <div class="checkbox_and_reading_time">
+                        <div class="check_boxes_div">
+                            <div class="exclude_spaces_div">
+                                <input type="checkbox" id="exclude_spaces">
+                                <label for="exclude_spaces" class="sub_text">Exclude Spaces</label>
+                            </div>
+
+                            <div class="set_character_limit_div">
+                                <input type="checkbox"> 
+                                <label for="set_character_limit" class="sub_text">Set Character Limit</label>
+                            </div>
+                        </div>
+
+                        <p class="sub_text">Approx. reading time: 0 minute</p>
+                    </div>
+                </section>
+
+
+                <section class="counts_section">
+                    <div class="total_char_count_div">
+                        <div>
+                            <h3 class="count_text">278</h3>
+                            <figcaption class="type_of_count_text">Total Characters</figcaption>
+                        </div>
+
+                        <div>
+                            <img class="char_count_img" src="./assets/images/pattern-character-count.svg" alt="pattern word count">
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="word_count_div">
+                        <div>
+                            <h3 class="count_text">28</h3>
+                            <figcaption class="type_of_count_text">Word Count</figcaption>
+                        </div>
+
+                        <div>
+                            <img class="char_count_img" src="./assets/images/pattern-word-count.svg" alt="pattern character count">
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="sentence_count_div">
+                        <div>
+                            <h3 class="count_text">12</h3>
+                            <figcaption class="type_of_count_text">Sentence Count</figcaption>
+                        </div>
+
+                        <div>
+                            <img class="char_count_img" src="./assets/images/pattern-sentence-count.svg" alt="pattern sentence count">
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <section>
+                    <h4 class="letter-density">Letter Density</h4>
+
+                    <article class="progress_fill_container">
+                        <h4 class="progress_indicator_text">E</h4>
+
+                        <div class="progress-container">
+                            <div class="progress-fill-l1"></div>
+                        </div>
+
+                        <span class="progress_indicator_text">40(16.06)%</span>
+                    </article>
+
+
+                    <article class="progress_fill_container">
+                        <h4 class="progress_indicator_text">M</h4>
+
+                        <div class="progress-container">
+                            <div class="progress-fill-l2"></div>
+                        </div>
+
+                        <span class="progress_indicator_text">10(9.06)%</span>
+                    </article>
+
+
+                    <article class="progress_fill_container">
+                        <h4 class="progress_indicator_text">A</h4>
+
+                        <div class="progress-container">
+                            <div class="progress-fill-l3"></div>
+                        </div>
+
+                        <span class="progress_indicator_text">19(16.06)%</span>
+                    </article>
+
+
+                    <article class="progress_fill_container">
+                        <h4 class="progress_indicator_text">L</h4>
+
+                        <div class="progress-container">
+                            <div class="progress-fill-l4"></div>
+                        </div>
+
+                        <span class="progress_indicator_text">90(34.06)%</span>
+                    </article>
+
+
+                    <article class="progress_fill_container">
+                        <h4 class="progress_indicator_text">P</h4>
+
+                        <div class="progress-container">
+                            <div class="progress-fill-l5"></div>
+                        </div>
+
+                        <span class="progress_indicator_text">20(17.06)%</span>
+                    </article>
+                    
+                </section>
+
+
+                <footer class="see_more_section">
+                    <h4>See more</h4>
+                    <img src="./assets/images/arrow-down.png" alt="Expand to see more details" class="arrow_down">
+                </footer>
+
+            </div>
+        </main>
+
+
+    </body>
+
+
+</html>
